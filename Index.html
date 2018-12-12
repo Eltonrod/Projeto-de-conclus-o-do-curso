@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  </head>
+  <body>
+
+	<div id="s-1"></div>
+
+    <header id="menu1" class="menu">
+      <div id=tituloMini>
+      <p>PIM HELP DESK </p>
+    </div>
+      <a href="#footer" onclick="escondeMenu()" class="menu-buttom"><i class="fas fa-bars"></i></a>
+      <nav id="links" class="links">
+        <img src="img/Logo_Projeto.png" id="logoMenu"  width="7%">
+        <a id="link-item" data-ancora="s-1" class="link-item" href="#topo">HOME</a>
+        <a id="link-item" data-ancora="s-2" class="link-item" href="#quemSomos">QUEM SOMOS</a>
+        <a id="link-item" data-ancora="s-3" class="link-item" href="#servicos">SERVIÇO</a>
+        <a id="link-item" data-ancora="s-4" class="link-item" href="#contato">CONTATO</a>
+        <a id="btnServico"  class="link-item" href="login.php">Área de serviço</a>
+      </nav>
+    </header>
+
+    <article class="content">
+    <section class="show"> <!--SLIDESHOW-->
+
+
+    	  <!-- #region Jssor Slider Begin -->
+        <!-- Generator: Jssor Slider Maker -->
+        <!-- Source: https://www.jssor.com -->
+        <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            jssor_1_slider_init = function() {
+
+                var jssor_1_SlideoTransitions = [
+                  [{b:-1,d:1,o:-0.7}],
+                  [{b:900,d:2000,x:-379,e:{x:7}}],
+                  [{b:900,d:2000,x:-379,e:{x:7}}],
+                  [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+                ];
+
+                var jssor_1_options = {
+                  $AutoPlay: 1,
+                  $SlideDuration: 800,
+                  $SlideEasing: $Jease$.$OutQuint,
+                  $CaptionSliderOptions: {
+                    $Class: $JssorCaptionSlideo$,
+                    $Transitions: jssor_1_SlideoTransitions
+                  },
+                  $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$
+                  },
+                  $BulletNavigatorOptions: {
+                    $Class: $JssorBulletNavigator$
+                  }
+                };
+
+                var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+                /*#region responsive code begin*/
+
+                var MAX_WIDTH = 3000;
+
+                function ScaleSlider() {
+                    var containerElement = jssor_1_slider.$Elmt.parentNode;
+                    var containerWidth = containerElement.clientWidth;
+
+                    if (containerWidth) {
+
+                        var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                        jssor_1_slider.$ScaleWidth(expectedWidth);
+                    }
+                    else {
+                        window.setTimeout(ScaleSlider, 30);
+                    }
+                }
+
+                ScaleSlider();
+
+                $Jssor$.$AddEvent(window, "load", ScaleSlider);
+                $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+                /*#endregion responsive code end*/
+            };
+        </script>
+        <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+        <style>
+            /*jssor slider loading skin spin css*/
+            .jssorl-009-spin img {
+                animation-name: jssorl-009-spin;
+                animation-duration: 1.6s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+
+            @keyframes jssorl-009-spin {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+
+            /*jssor slider bullet skin 032 css*/
+            .jssorb032 {position:absolute;}
+            .jssorb032 .i {position:absolute;cursor:pointer;}
+            .jssorb032 .i .b {fill:#fff;fill-opacity:0.7;stroke:#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}
+            .jssorb032 .i:hover .b {fill:#000;fill-opacity:.6;stroke:#fff;stroke-opacity:.35;}
+            .jssorb032 .iav .b {fill:#000;fill-opacity:1;stroke:#fff;stroke-opacity:.35;}
+            .jssorb032 .i.idn {opacity:.3;}
+
+            /*jssor slider arrow skin 051 css*/
+            .jssora051 {display:block;position:absolute;cursor:pointer;}
+            .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+            .jssora051:hover {opacity:.8;}
+            .jssora051.jssora051dn {opacity:.5;}
+            .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+        </style>
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1000px;height:300px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            </div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1100px;height:300px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="img/001.jpg" />
+                    <div data-u="caption" data-t="0" data-ts="preserve-3d" style="position:absolute;top:120px;left:75px;width:470px;height:220px;">
+                        <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;max-width:470px;" src="img/c-phone-horizontal.png" />
+                        <div data-ts="preserve-3d" style="position:absolute;top:4px;left:45px;width:379px;height:213px;overflow:hidden;">
+                            <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;max-width:379px;" src="img/c-slide-1.jpg" />
+                            <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;max-width:379px;" src="img/c-slide-3.jpg" />
+                        </div>
+                        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;max-width:379px;" src="img/c-navigator-horizontal.png" />
+                        <img data-u="caption" data-t="3" style="position:absolute;top:476px;left:454px;width:63px;height:77px;max-width:63px;" src="img/hand.png" />
+                    </div>
+                </div>
+                <div>
+                    <img data-u="image" src="img/002.jpg" />
+                </div>
+                <div>
+                    <img data-u="image" src="img/003.jpg" />
+                    <center><div style="position:absolute;top:30px;left:30px;width:450px;height:130px;font-family:'Roboto Condensed',sans-serif;font-size:40px;color:white;line-height:1.5;padding:5px 5px 5px 5px;box-sizing:border-box;background-color:#a8123a;background-clip:padding-box;">PIM Help Desk!
+    <br />
+                        Gestão de chamados.
+                    </div></Center>
+                    <center><div style="position:absolute;top:180px;left:60px;width:450px;height:90px;font-family:'Roboto Condensed',sans-serif;font-size:30px;color:white;line-height:1.27;padding:5px 5px 5px 5px;box-sizing:border-box;background-color:#a8123a;background-clip:padding-box;">Facilitando o seu processo na medida certa.</div>
+                </div></center>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb032" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+        <script type="text/javascript">jssor_1_slider_init();</script>
+        <!-- #endregion Jssor Slider End -->
+
+        <div = id="topo"></div>
+    </section>
+    <nav id ="menu2" class="links">
+      <a class="link-item" data-ancora="s-1" href="#topo">HOME</a>
+      <a class="link-item" data-ancora="s-2" href="#quemSomos">QUEM SOMOS</a>
+      <a class="link-item" data-ancora="s-3" href="#servicos">SERVIÇO</a>
+      <a class="link-item" data-ancora="s-4" href="#contato">CONTATO</a>
+      <a id="btnServico"  class="link-item" href="login.php">Área de serviço</a>
+    </nav>
+    <center><img src="img/Logo_Projeto.png" id="logoInicio" width="25%">
+    <p id="titulo">* PIM HELP DESK *<br>Serviços de manutenção técnica</p></center>
+
+    <section id="quemSomos"> <!--USADO PARA INDICAR O CORPO DO SITE-->
+	<div id="s-2"></div>
+    		<header>
+    			<h1>QUEM SOMOS</h1>
+    		</header>
+    			<P>A PIM Help Desk atua no mercado corporativo com soluções, produtos e serviços sob medida para o mercado de gestão de chamados. Visamos com nosso trabalho, acelerar o processo de crescimento de nossos clientes, proporcionando a melhor experiência visando uma maior produtividade.
+    			a PIM mantém o propósito de buscar o que há de mais novo no mercado de TI e de observar, analisar e implementar quando necessario, as principais tendências para melhoria de qualidade.	</P>
+    			<center><img src="img/atendimento.jpg" id="quemsomos" width="70%" ></center>
+    				<P>Juntamos as novas tecnologias e uma equipe jovem e determinada em aplicar o que aprendeu na faculdade e em suas experiências profissionais especificas.
+    			A nossa Startup foi pensada para não ter chefe, dono, superiores, ou qualquer forma de hierarquia entre os membros. Cada membro da equipe sabe de sua importância no processo de criação de nossas soluções e trabalha em função delas</p>
+    </section>
+    <section id="objetivos"> <!--USADO PARA INDICAR O CORPO DO SITE-->
+    		<header>
+    			<hgroup>
+    			<h1>NOSSOS OBJETIVOS</h1>
+    			</hgroup>
+    		</header>
+    			<P>Buscamos ocupar o nosso espaço de forma revolucionária neste mercado de help desk, trazendo soluções tecnológicas de ponta e que atendam as necessidades das pequenas e grandes empresas que necessitem de um software que gerencie seus chamados e que facilite o seu dia a dia.</P>
+    			<P>Desenvolvemos uma solução multiplataforma que possibilite tanto para o cliente, quanto para os profissionais que farão uso da ferramenta, a oportunidade de interagir com o sistema de onde estiver, com a plataforma que estiver disponível no momento: celulares, tablet, notebook, etc.</P>
+    		</section>
+
+    <div id="div3" class="corpo">
+
+    		<header>
+    				<h1>ATUAÇÃO NO MERCADO</h1>
+    		</header>
+    			<p>A <b>Pim Help Desk</b> atua no mercado de serviços de manutenção de equipamentos. Dispomos de profissionais qualificados e bem treinados para realizar os melhores reparos.</p>
+    			<p>Com excelência nos serviços e no controle dos prazos, conquistamos a confiança de nossos clientes e fornecedores. Tudo isso visando um serviço de qualidade e respeito com todos os envolvidos.</p>
+
+          <div id="imgServico">
+
+              <img src="img/manutencao.jpg" class="ftserv" width="200px" height="200px">
+
+              <img id="figura2" src="img/manutencao3.jpg" class="ftserv"height="200px">
+
+              <img id="figura3" src="img/manutencao2.png" class="ftserv" width="200px"height="200px">
+        </div>
+        <BR>
+			<div id="s-3"></div>
+    			<p>Nós lhe oferecemos um software sofisticado e com ferramentas atuais que irão te ajudar na gestão dos seus chamados, eliminando o risco de perder informações.</p>
+    			<p>Além do mais, a <b>PIM Help Desk</b> disponibilizará para a sua empresa ferramentas modernas de KPI (Key Performance Indicator) para que vocês tomem as melhores decisões baseadas em números.</p>
+    			<p>Deixe que a nossa equipe cuide da burocrácia, deixando a sua equipe traquila para atender os seus clientes da melhor forma</p><BR>
+          <div class="animacao">
+
+        </div>
+    </div>
+
+    <div id="servicos" class="servicos">
+    		<header>
+    			<h1>SERVIÇOS AOS USUÁRIO</h1>
+          <p>Nossa equipe possui uma ampla experiência em atendimento ao cliente e conhecimento profundo para ajudá-lo. Da implementação da solução ao atendimento sempre disponível, nós garantimos que você aproveitará ao máximo com a PIM Help Desk.</p>
+				<center><img id="figuraServico" src="img/servicoIMG.png" width="60%"></center>
+			   <center><h4>Escolha o serviço que desejar:</h4></center>
+			</header>
+        <div id="servOpc">
+    			<a class="opc" onclick="formCadastro();">CADASTRAR CLIENTE</a>
+          <a class="opc" onclick="formConsulta();">CONSULTAR CADASTRO</a>
+    			<a class="opc" onclick="formChamado();">ABRIR NOVO CHAMADO</a>
+
+        </div>
+
+    </div>
+    <!--FORMULÁRIOS DE INTERAGIR COM CLIENTE-->
+     <div id="formCadastro" class="formCliente">
+         <form id="cadastro" name="cadastro" method="POST" action="cadastroIndex.php">
+             <caption><h2>Cadastro de novo usuário</h2></caption>
+             <input type="text" name="empresa" id="empresa" placeholder="Nome da empresa (Caso seja empresa)" size="50" required>
+             <BR>
+             <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" size="50" required>
+             <BR>
+             Data de nascimento:
+             <input type="date" name="dtNascimento" id="dtNascimento" placeholder="Data de nascimento" required>
+             <BR>
+             <input type="text" name="cpf" id="cpf" placeholder="Digite o seu CPF" required>
+             <BR>
+             <input type="text" name="tel_fixo" id="tel_fixo"placeholder="Telefone fixo">
+             <input type="text" name="tel_cel" placeholder="Telefone celular"required>
+             <BR>
+             <input type="text" name="email" placeholder="E-mail" size="50" required>
+             <BR>
+             <input type="text" name="logradouro" id="logradouro"placeholder="Logradouro" size="50" required>
+             <BR>
+             <input type="text" name="bairro" id="bairro" size="30" placeholder="Bairro"required>
+             <BR>
+             <input type="text" name="cidade" id="cidade" placeholder="Cidade" size="30" required>
+             <BR>
+             <input type="text" name="uf" id="uf"placeholder="UF" size="1" required>
+             <BR>
+             <!--	<p>Deseja receber e-mails promocionais?	<input type="checkbox">-->
+             <input type="submit" style="width:90;height:30" value="Enviar">
+             <input type="reset" style="width:90;height:30" value="Reset">
+          </form>
+    </DIV>
+
+    <div id="formChamado" class="formCliente">
+          <div id="consultaChamado">
+            <form id="abrirChamado" class="form"  name="cadastro">
+            <fieldset>
+            <legend>Localizar cliente:</legend>
+            <input type="text" name="nome" id="abrirChamadoNome" placeholder="Digite o nome do cliente" size="17">
+            <BR>
+            <input type="text" name="id" id="abrirChamadoId" placeholder="ID do cliente" size="10">
+            <BR><BR>
+            <input type="submit" onclick="return abrirChamadoAjax(); " style="width:90;height:30" value="Consultar">
+            </form>
+            <p id="abrirChamado-id"></p>
+            <p id="abrirChamado-empresa"></p>
+            <p id="abrirChamado-nome"></p>
+          </fieldset>
+          </div>
+          <div id="regServico">
+            <fieldset>
+              <legend>Ordem de Serviço:</legend>
+              Equipamento:<input type="text" name="abrirChamadoEquip" id="abrirChamadoEquip" size="40">
+
+              <p>Tipo de serviço:
+                <select name="tipoServico" id="tipoServico">
+                  <option value="Revisão">Revisão</option>
+                  <option value="Manutenção">Manutenção</option>
+                  <option value="Periodo">Periodo em garantia</option>
+                  <option value="Devolução">Devolução</option>
+                  <option value="Troca">Troca</option>
+                  <option value="Outros">Outros</option>
+                </select></p>
+            </fieldset>
+          <fieldset>
+          <center><H3>REGISTRO DE ATIVIDADES</H3></CENTER>
+            <p>Descrição do problema:<br>
+            <textarea name="descricao" id="descricao" cols="90%" rows="3"></textarea><BR>
+            <input type="submit" onclick="return criarOsAjax();" style="width:90;height:30" value="Salvar">
+            <input type="reset" style="width:90;height:30" value="Limpar">
+            </fieldset>
+          </div>
+
+   </DIV>
+
+   <div id="formConsulta" class="formCliente">
+         <form id="consulta" class="form" name="consulta">
+
+         <div div="consultaPesquisa">
+         <fieldset>
+             <legend>Localizar cliente:</legend>
+           <input type="text" name="nome" id="nome" placeholder="Digite o nome" size="30">
+           <BR>
+           <input type="text" name="id" id="id" placeholder="Digite o id" size="10">
+           <BR>
+           <input type="submit" onclick="return ConsultaAjax();" style="width:90;height:30" value="Consultar">
+           <input type="reset" style="width:90;height:30" value="Reset">
+           <BR>
+         </fieldset>
+           </form>
+
+           <fieldset>
+             <legend>Resultado da pesquisa:</legend>
+
+             <p id="consulta-id"></p>
+             <p id="consulta-empresa"></p>
+             <p id="consulta-nome"></p>
+             <p id="consulta-dtNascimento"></p>
+             <p id="consulta-cpf"></span>
+             <p id="consulta-tel_fixo"></p>
+             <p id="consulta-tel_celular"></p>
+             <p id="consulta-bairro"></p>
+             <p id="consulta-cidade"></p>
+             <p id="consulta-uf"></p>
+             </fieldset>
+           <BR>
+   </div>
+
+  </DIV>
+          <br>
+          <center><img src="img/serv.gif"</center>
+          <BR>
+<script>
+
+menu = false;
+function escondeMenu() {
+    if (menu) {
+      document.getElementById('links').style.display="none";
+    }else{
+      document.getElementById('links').style.display="flex";
+    }
+    menu = !menu;
+}
+
+form = false;
+function formCadastro() {
+
+    if (form) {
+      document.getElementById('formCadastro').style.display="none";
+    }else{
+      document.getElementById('formChamado').style.display="none";
+      document.getElementById('formConsulta').style.display="none";
+      document.getElementById('formCadastro').style.display="flex";
+    }
+    form = !form;
+}
+
+form2 = false;
+function formChamado() {
+    if (form2) {
+      document.getElementById('formChamado').style.display="none";
+    }else{
+      document.getElementById('formCadastro').style.display="none";
+      document.getElementById('formConsulta').style.display="none";
+      document.getElementById('formChamado').style.display="flex";
+    }
+    form2 = !form2;
+}
+form3 = false;
+function formConsulta() {
+    if (form3) {
+      document.getElementById('formConsulta').style.display="none";
+    }else{
+      document.getElementById('formCadastro').style.display="none";
+      document.getElementById('formChamado').style.display="none";
+      document.getElementById('formConsulta').style.display="flex";
+    }
+    form3 = !form3;
+}
+</script>
+
+		<div id="s-4"></div>
+
+    <div id="contato" class="canais">
+
+    			<div id="box1" class="box">
+    				<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+
+    					<form id="formFuncionario" name="formFuncionario" method="POST" action="cadastroIndex.php">
+              	<input type="hidden" name="idFuncionario">
+                <h4>Fale conosco</h4>
+
+    						<p>Nome:
+    						<input type="text" name="contNome" id="nome" size="32">
+    						<p>E-mail:
+    						<input type="email" name="contEmail" id="email" size="32">
+    						<p>Tipo de contato:
+    						<select name="contAssunto">
+    							<option value="Informações">Informações</option>
+    							<option value="Reclamação">Reclamação</option>
+    							<option value="Dúvida">Dúvida</option>
+    							<option value="Solicitação">Solicitação</option>
+    							<option value="Parceria">Parceria</option>
+    						</select>
+
+    						<p>Mensagem:
+    						<textarea name="contMensagem" id="mensagem" cols="34" rows="4"></textarea>
+
+    						<input type="submit" value="Enviar">
+    						<input type="reset" value="Reset">
+
+    					</form>
+
+    				</div>
+
+    			<div id="box2" class="box">
+    				<h4> Nos faça uma ligação</h4>
+    				<p>Central: (11) 2862-3398	<br>
+    				Elton: (11) 9.8865-0030<br>
+    				Cláudia: (11) 9.8486-3733</p>
+
+    				<BR>
+    				<A href="https://www.facebook.com/elton.rodrigues.315080" target="_blank" style="padding-left:50px">
+    				<img src="img/facebook.png" title="Facebook" border=0 width=30 height=20>
+    				</a>
+    				<A href="https://www.linkedin.com/in/eltonrsilva/" target="_blank">
+    				<img src="img/linkedin.png" title="Linkedin" border=0 width=30 height=20>
+    				</a>
+    				<A href="https://www.youtube.com/channel/UC0w_Ajg9vDth3i4hPsjf0QQ?view_as=subscriber" target="_blank">
+    				<img src="img/youtube.png" title="Youtube" border=0 width=30 height=20>
+    				</a>
+    				<A href="https://www.youtube.com/channel/UC0w_Ajg9vDth3i4hPsjf0QQ?view_as=subscriber" target="_blank">
+    				<img src="img/googleplus.png" title="Google+" border=0 width=30 height=20>
+    				</a>
+    				<pre>     Nossas redes sociais</pre>
+    			</div>
+
+    			<div id="box3" class="box">
+    					<h4>Nos envie um e-mail</h4>
+    					<p><a href="#">contato@pimhelpdesk.com</a>
+    					<a href="elton.rsilva@hotmail.com">elton@pimhelpdesk.com</a><br>
+    					<a href="elton.rsilva@hotmail.com">claudia@pimhelpdesk.com</a><br></p>
+
+    						<BR>
+    				<div id="newsletter">
+    					<label>
+    						<form id="newsletter" name="newsletter" method="POST" action="acao.php">
+    							<span><b>Assine a nossa newsletter</b></span>
+    							<br>
+
+    							<input type="text" id="nome" placeholder="Digite o seu nome" size="25"/>
+    							<br>
+    							<input type="email" id="email" placeholder="Seu e-mail..." size="25"/>
+    							<br>
+    							<input type="submit" value="Enviar">
+    						</form>
+    					</label>
+    				</div>
+
+    			</div>
+    </div>
+
+</article>
+
+    <footer>
+
+    	</a>&copy 2018 PIM Help Desk All Rights Reserved.
+
+    </footer>
+
+<script>
+	//mover a página lentamente com ancora
+	document.querySelectorAll('[data-ancora]').forEach(function(anchor){
+  anchor.addEventListener('click',function(e){
+    e.preventDefault();
+    document.getElementById(this.getAttribute('data-ancora')).scrollIntoView({
+          behavior: 'smooth', block: 'start',inline:'nearest'
+    })
+
+  })
+})
+</script>
+<script>
+nomeEmpresa = "";
+idCliente = "";
+nomeCliente = "";
+function criarOsAjax(){
+  var request = new XMLHttpRequest();
+  //console.log(request);
+    request.onreadystatechange = function() {
+      if(request.readyState === 4) {
+        if(request.status === 200) {
+        var objAbrirOs = JSON.parse(request.responseText);
+        document.getElementById('abrirChamado-id').innerHTML = "";
+        document.getElementById('abrirChamado-empresa').innerHTML = "<p style='text-align: center; font-size:19px;color:blue;padding: 10px 0'>** Chamado aberto com sucesso! **</p>";
+        document.getElementById('abrirChamado-nome').innerHTML = "";
+      } else {
+    alert('Erro: ' +  request.status + ' ' + request.statusText);
+  }
+  }
+  }
+  var url = "http://localhost:8079/Projeto_PIM/criarOs.php";
+  var gravarEmpresa = nomeEmpresa;
+  var gravarIdCliente = idCliente;
+  var gravarCliente = nomeCliente;
+  var gravarEquipamento = document.getElementById('abrirChamadoEquip').value;
+  var gravarTipoServico = document.getElementById('tipoServico').value;
+  var gravarDescricao = document.getElementById('descricao').value;
+
+  request.open('Get', url+"?gravarEmpresa="+gravarEmpresa+"&gravarIdCliente="+gravarIdCliente+"&gravarCliente="+gravarCliente+"&gravarEquipamento="+gravarEquipamento+"&gravarTipoServico="+gravarTipoServico+"&gravarDescricao="+gravarDescricao);
+
+request.send();
+return false;
+}
+</script>
+
+
+  <!--Script para abrir chamado-->
+<script>
+  function abrirChamadoAjax(){
+    var request = new XMLHttpRequest();
+    //console.log(request);
+    request.onreadystatechange = function() {
+      if(request.readyState === 4) {
+        if(request.status === 200) {
+          var objAbrirChamado = JSON.parse(request.responseText);
+          document.getElementById('abrirChamado-id').innerHTML = "<b>ID:</b> " + objAbrirChamado.abrirChamadoId;
+          idCliente = objAbrirChamado.abrirChamadoId;
+          document.getElementById('abrirChamado-empresa').innerHTML = "<b>Empresa:</b> " + objAbrirChamado.abrirChamadoEmpresa;
+          nomeEmpresa = objAbrirChamado.abrirChamadoEmpresa;
+          document.getElementById('abrirChamado-nome').innerHTML ="<b>Nome:</b> " + objAbrirChamado.abrirChamadoNome;
+          nomeCliente = objAbrirChamado.abrirChamadoNome;
+        } else {
+          alert('Erro: ' +  request.status + ' ' + request.statusText);
+        }
+      }
+    }
+    var url = "http://localhost:8079/Projeto_PIM/abrirChamadoAjax.php";
+    var abrirChamadoId = document.getElementById('abrirChamadoId').value;
+    var abrirChamadoNome = document.getElementById('abrirChamadoNome').value;
+
+    request.open('Get', url+"?abrirChamadoId="+abrirChamadoId+"&abrirChamadoNome="+abrirChamadoNome);
+    request.send();
+    return false;
+  }
+
+  </script>
+  <script>
+  function ConsultaAjax(){
+    //document.getElementById('consulta-esconde').style.display.block;
+    var request = new XMLHttpRequest();
+    //console.log(request);
+    request.onreadystatechange = function() {
+      if(request.readyState === 4) {
+        if(request.status === 200) {
+          //alert(request.responseText);
+          //var objConsulta = JSON.parse(request.responseText);
+          //console.log(request.responseText);
+          var objConsulta = JSON.parse(request.responseText);
+          //alert(objConsulta.nome);
+          document.getElementById('consulta-id').innerHTML = "<b>ID:</b> " + objConsulta.id;
+          document.getElementById('consulta-empresa').innerHTML = "<b>Empresa:</b> " + objConsulta.empresa;
+          document.getElementById('consulta-nome').innerHTML ="<b>Nome:</b> " + objConsulta.nome;
+          document.getElementById('consulta-dtNascimento').innerHTML = "<b>Data de Nascimento:</b> " +  objConsulta.dtNascimento;
+          document.getElementById('consulta-cpf').innerHTML = "<b>CPF:</b> " + objConsulta.cpf;
+          document.getElementById('consulta-tel_fixo').innerHTML ="<b>Telefone:</b> " +  objConsulta.tel_fixo;
+          document.getElementById('consulta-tel_celular').innerHTML = "<b>Celular:</b> " + objConsulta.tel_cel;
+          document.getElementById('consulta-bairro').innerHTML = "<b>Bairro:</b> " + objConsulta.bairro;
+          document.getElementById('consulta-cidade').innerHTML = "<b>Cidade:</b> " + objConsulta.cidade;
+          document.getElementById('consulta-uf').innerHTML = "<b>UF:</b> " + objConsulta.uf;
+        } else {
+          alert('Erro: ' +  request.status + ' ' + request.statusText);
+        }
+      }
+    }
+    var url = "http://localhost:8079/Projeto_PIM/consultaAjax.php";
+    var id = document.getElementById('id').value;
+    var nome = document.getElementById('nome').value;
+    //alert(url+"?id="+id+"&nome="+nome);
+    request.open('Get', url+"?id="+id+"&nome="+nome);
+    request.send();
+    return false;
+  }
+
+  </script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,101 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	#main {
+		display: grid; grid-template-areas: "header header" "nav nav" "aside content" "footer footer";
+		grid-template-rows: 15vh 5vh 75vh 5vh; 
+		grid-template-columns: 18% 82%;
+		}
+	
+	.mainHeader{
+		grid-area: header; 
+		background: red;
+		text-align: center;
+		background-image: url(fundocabecalho.jpg);
+		}
+	
+	.mainHeader img{
+		width: 7%;
+		float: left;
+		padding: 5px;
+		
+		}
+
+	.mainHeader h2{
+		float: left;
+		padding-top: 30px;
+		padding-left: 22%;
+		font-size: 30px;
+		}
+		
+	.mainNav{
+			background: #722559;
+			padding: 5px;
+			text-align: center;
+			
+	}
+	.mainNav:hover{
+			background: yellow;
+			
+	}
+	.mainNav a:hover{
+			color: black;
+			font-size: 17px;
+			
+	}
+	.mainNav a{
+		text-decoration: none; 
+		color: white;
+		font-weight: bold;
+		}
+	
+/*BOTÕES DE SERVIÇO*/	
+	#receita1{
+		font-size: 13px;
+		color: blue;
+		padding-left: 5px;
+		padding-right: 5px;
+		font-weight: bold;
+		
+		}
+		
+		
+	.mainContent{
+		grid-area: content; 
+		background: #FFDEAD; 
+	
+		}
+	
+	#cadastro{
+		padding-left: 100px;
+	}
+	
+	.mainAside{
+		grid-area: aside; 
+		background: #708090;
+		padding-top: 20px;
+		font-size: 15px;
+		}
+
+	.mainFooter{
+		grid-area: footer; 
+		background: silver;
+		text-align: center;
+		font-size: 14px;
+		padding: 10px;
+		}
+	
+	@media screen and (max-width: 768px){
+		body{background: silver;}
+		#main{grid-template-areas: "header" "content" "aside" "footer";}
+		.mainNav {grid-area: header; margin-top: 20px;}
+	}
+	
+	/*BOTÃO INDEX*/
+	#btadm a{
+		text-decoration: none;
+		background: yellow;
+		padding: 5px;
+		border: 1px solid red;
+		}
